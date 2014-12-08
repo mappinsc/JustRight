@@ -6,9 +6,7 @@ body{ color: #877369; background-color: #e8e8e8; background-image: url('../../fi
 
 .red-bar{ height: 5px; background: #E54F3F; }
 
-.head-line-text { font-size: 30px; margin-bottom: 20px; margin-top: 0; }
-
-@media (min-width: 992px){ .head-line-text{ font-size: 34px; } }
+.head-line-text { font-size: 34px; margin-bottom: 20px; margin-top: 0; }
 
 .red-title{ color:#EE3123; }
 
@@ -38,7 +36,13 @@ body{ color: #877369; background-color: #e8e8e8; background-image: url('../../fi
 
 .row-2 hr{ border-top: 1px solid #D1D2D2; }
 
-.cnhs-less-padding{ padding-left: 5px; padding-right: 5px;}
+.cnhs-less-padding-left{ padding-left: 5px; }
+.cnhs-less-padding-right{ padding-right: 5px; }
+
+
+/*@media (min-width:768px) and (max-width: 992px){ .head-line-text{ font-size: 1.5em; margin-bottom: 10px;} }
+@media (min-width:768px) and (max-width: 992px){ .pitch-line{ font-size: 1em; } }
+@media (min-width:768px) and (max-width: 992px){ .app-btn{ font-size: 1.125em; margin-top: 5px; } }*/
 
 /* override section*/
 
