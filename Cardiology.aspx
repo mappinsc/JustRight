@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="Description" content="What's Right For Children? At the moment your child needs help, at the moment you place the most precious person in your life into the hands of another, that moment demands a remarkable and uncommon ability to care-the ability to do exactly what's right." />
-	<title>How Can We Help You - Children's National Health System</title>
+	<title>How Can We Help You? - Children's National Health System</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<!-- Optional theme -->
@@ -37,22 +37,22 @@
   	  <div class="container">
   	  	<div class="hidden-xs">
 	        <div class="navbar-header">
-	          <a class="navbar-brand" href="http://childrensnational.org" title="Brand Logo on Top">
+	          <a class="navbar-brand" href="http://childrensnational.org" trackingLabel="Brand Logo on Top">
 	          	<img alt="Children's National Health System Logo" src="files/images/logo-lg.png" width="100%" height="100%">
 	          </a>
 			</div>
 			<div class="nav navbar-nav navbar-right">
-				<p class="navbar-text phone-number-lg better-font"><a href="tel:18888842327" title="Phone Number on Top"><span class="header-appt-phone">1-888-884-BEAR(2327)</span></a></p>
+				<p class="navbar-text phone-number-lg better-font"><a href="tel:18888842327" trackingLabel="Phone Number on Top"><span class="header-appt-phone">1-888-884-BEAR(2327)</span></a></p>
 	      	</div>
   	  	</div>
   	  	<div class="hidden-sm hidden-md hidden-lg">
 	        <div class="navbar-header text-center logo-mobile">
-	          <a href="http://childrensnational.org" title="Brand Logo on Top">
+	          <a href="http://childrensnational.org" trackingLabel="Brand Logo on Top">
 	          	<img alt="Children's National Health System Logo" src="files/images/logo-sm.jpg" width="256px">
 	          </a>
 			</div>
 			<div class="nav navbar-nav text-center">
-				<p class="navbar-text phone-number-sm better-font"><a href="tel:18888842327" title="Phone Number on Top"><span class="header-appt-phone">1-888-884-BEAR(2327)</span></a></p>
+				<p class="navbar-text phone-number-sm better-font"><a href="tel:18888842327" trackingLabel="Phone Number on Top"><span class="header-appt-phone">1-888-884-BEAR(2327)</span></a></p>
 	      	</div>
   	  	</div>
       </div>
@@ -61,41 +61,17 @@
   <section id="content-body">
   	<div class="container">
   		<div class="row row-1">
-  			<div class="col-sm-7">
-  				<div class="image-wrapper"><img src="files/images/banner-lg.jpg" class="img-responsive" width="100%" height="100%" alt="Responsive image"></div>
+  			<div class="col-md-8">
+  				<div class="image-wrapper"><img src="files/images/baby-just-right.jpg" class="img-responsive" width="100%" height="100%" alt="Responsive image"></div>
   			</div>
-   			<div class="col-sm-5">
+   			<div class="col-md-4">
    				<h2 class="head-line-text red-title better-font">How Can We Help You?</h2>
+  				<p class="pitch-line">From overcoming serious illness, to primary care, we are the region’s only dedicated health system designed with kids in mind. <a href="http://childrensnational.org/about" trackingLabel="Link in Content under How Can We Help You">Learn more</a> about care that’s just right for children.</p>
   				<p class="pitch-line">To request an appointment with one of our providers, whether pediatrician or specialist, you can call us directly or schedule a non-emergency appointment online.</p>
-  				<h4 class="app-btn"><span class="better-font">Make an Appointment:</span></h4>
-				<div class="hidden-xs hidden-lg hidden-md">
-					<div class="row">
-						<div class="col-sm-6">
-						<a class="btn btn-danger btn-md btn-block" href="http://childrensnational.org/specialty-care-patients/schedule-an-appointment" role="button" title="Make an Appointment Btn Specialty Care">Specialty Care</a>
-						</div>
-						<div class="col-sm-6">
-						<a class="btn btn-danger btn-md btn-block" href="http://childrensnational.org/primary-care/schedule-an-appointment" role="button" title="Make an Appointment Btn Primary Care">Primary Care</a>
-						</div>
-					</div>
-				</div>
-				<div class="hidden-xs hidden-sm">
-					<div class="row">
-						<div class="col-sm-6">
-						<a class="btn btn-danger btn-lg btn-block" href="http://childrensnational.org/specialty-care-patients/schedule-an-appointment" role="button" title="Make an Appointment Btn Specialty Care">Specialty Care</a>
-						</div>
-						<div class="col-sm-6">
-						<a class="btn btn-danger btn-lg btn-block" href="http://childrensnational.org/primary-care/schedule-an-appointment" role="button" title="Make an Appointment Btn Primary Care">Primary Care</a>
-						</div>
-					</div>
-				</div>
-				<div class="hidden-sm hidden-md hidden-lg app-btn">
-					<div class="row">
-						<div class="col-xs-6">
-						<a class="btn btn-danger btn-lg btn-block" href="http://childrensnational.org/specialty-care-patients/schedule-an-appointment" role="button" title="Make an Appointment Btn Specialty Care">Specialty Care</a>
-						</div>
-						<div class="col-xs-6">
-						<a class="btn btn-danger btn-lg btn-block" href="http://childrensnational.org/primary-care/schedule-an-appointment" role="button" title="Make an Appointment Btn Primary Care">Primary Care</a>
-						</div>
+  				<h4 class="app-btn"><span class="better-font">Make an Cardiology Appointment:</span></h4>
+				<div class="row">
+					<div class="col-xs-12">
+						<a class="btn btn-danger btn-cnhs btn-lg btn-block" href="http://childrensnational.org/specialty-care-patients/schedule-an-appointment" role="button" trackingLabel="Make an Appointment Btn Specialty Care">Specialty Care</a>
 					</div>
 				</div>
   			</div>
@@ -111,7 +87,7 @@
 				  	<p><hr></p>
 				  	<h4><span class="better-font">Our Top Services</span></h4>
 				  	<p>
-				  		<select id="serviceDropList" class="form-control drop-list-links" title="Our Top Services Selection">
+				  		<select id="serviceDropList" class="form-control drop-list-links" trackingLabel="Our Top Services Selection">
 							<option value="">-Choose-</option>
 							<option value="http://childrensnational.org/departments/oncology">Cancer</option>
 							<option value="http://childrensnational.org/departments/cardiac-surgery">Cardiac Surgery</option>
@@ -129,32 +105,32 @@
 							<option value="http://childrensnational.org/departments/bariatric-surgery-program">Weight-Loss Surgery</option>
 				  		</select>
 				  	</p>
-				  	<p><a class="btn btn-danger btn-md btn-block" href="http://childrensnational.org/Departments" role="button" title="See All Services Btn">See All Services</a></p>
+				  	<p><a class="btn btn-danger btn-cnhs btn-md btn-block" href="http://childrensnational.org/Departments" role="button" trackingLabel="See All Services Btn">See All Services</a></p>
 				  </div>
 				</div>
 			</div>
    			<div class="col-md-3">
 				<div class="panel">
 				  <div class="panel-heading">
-				    <h3 class="panel-title better-font">Find a Doctor</h3>
+				    <h3 class="panel-title better-font">Find a Provider</h3>
 				  </div>
 				  <div class="panel-body">
 				    <p><small>Nationally recognized experts in pediatric medicine, across a full-range of services.</small></p>
-				  	<p><a class="btn btn-danger btn-md btn-block" href="http://childrensnational.org/choose-childrens/find-a-provider" role="button" title="Find a Doctor Btn">Find a Doctor</a></p>
+				  	<p><a class="btn btn-danger btn-cnhs btn-md btn-block" href="http://childrensnational.org/choose-childrens/find-a-provider?department=%7bA0089A5D-0120-42EB-9286-24C4413D36AE%7d&search=yes" role="button" trackingLabel="Find a Provider Btn">Find a Provider</a></p>
 				  </div>
 				</div>
 			</div>	
    			<div class="col-md-3">
 				<div class="panel">
 				  <div class="panel-heading">
-				    <h3 class="panel-title better-font">Locations</h3>
+				    <h3 class="panel-title better-font">Find a Location</h3>
 				  </div>
 				  <div class="panel-body">
 				    <p><small>Offering a network of primary care and specialty clinics throughout Washington, DC, Maryland, and Virginia, as well as at our flagship hospital.</small></p>
 				  	<p><hr></p>
 				  	<h4><span class="better-font">Our Locations</span></h4>
 				  	<p>
-				  		<select id="locationDropList" class="form-control drop-list-links" title="Our Locations Selection">
+				  		<select id="locationDropList" class="form-control drop-list-links" trackingLabel="Our Locations Selection">
 							<option value="">-Choose-</option>
 							<option value="http://childrensnational.org/choose-childrens/locations-and-directions">Main Hospital</option>
 							<option value="http://childrensnational.org/choose-childrens/locations-and-directions/outpatient-centers/spring-valley-outpatient-center">Spring Valley, DC</option>
@@ -166,7 +142,7 @@
 							<option value="http://childrensnational.org/choose-childrens/locations-and-directions">Northern Virginia</option>
 				  		</select>
 				  	</p>
-				  	<p><a class="btn btn-danger btn-md btn-block" href="http://childrensnational.org/choose-childrens/locations-and-directions" role="button" title="See All Locations Btn">See All Locations</a></p>
+				  	<p><a class="btn btn-danger btn-cnhs btn-md btn-block" href="http://childrensnational.org/choose-childrens/locations-and-directions" role="button" trackingLabel="See All Locations Btn">See All Locations</a></p>
 				  </div>
 				</div>
 			</div>	
@@ -177,7 +153,7 @@
 				  </div>
 				  <div class="panel-body">
 				    <p><small>As a nonprofit, Children's National relies on the generosity of families, community leaders, and corporations who share our vision for children. Your donation will support innovative therapies and research to give every child a chance for a healthy life.</small></p>
-				  	<p><a class="btn btn-danger btn-md btn-block" href="http://giving.childrensnational.org/site/Donation2?df_id=6060&6060.donation=form1&s_src=14ODDonationsNB&s_subsrc=WEB_Hospitaljustright" role="button" title="Donate Today Btn">Donate Today</a></p>
+				  	<p><a class="btn btn-danger btn-cnhs btn-md btn-block" href="http://giving.childrensnational.org/site/Donation2?df_id=7600&7600.donation=form1&s_src=OD7600&s_subsrc=RAPC_Hosp_ad" role="button" trackingLabel="Donate Today Btn">Donate Today</a></p>
 				  </div>
 				</div>
 			</div>	
@@ -188,7 +164,7 @@
   <footer>
 	  <div class="footer">
 	      <div class="container">
-	        <p class="text-muted text-center better-font"><a href="http://childrensnational.org" title="Footer CNHS Homepage Link"><span>ChildrensNational.org</span></a></p>
+	        <p class="text-muted text-center better-font"><a href="http://childrensnational.org" trackingLabel="Footer CNHS Homepage Link"><span>ChildrensNational.org</span></a></p>
 	      </div>
 	   </div>
    </footer>

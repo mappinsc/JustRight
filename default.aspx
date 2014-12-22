@@ -62,7 +62,7 @@
   	<div class="container">
   		<div class="row row-1">
   			<div class="col-md-8">
-  				<div class="image-wrapper"><img src="files/images/testing-image.png" class="img-responsive" width="100%" height="100%" alt="Responsive image"></div>
+  				<div class="image-wrapper"><img src="files/images/baby-just-right.jpg" class="img-responsive" width="100%" height="100%" alt="Responsive image"></div>
   			</div>
    			<div class="col-md-4">
    				<h2 class="head-line-text red-title better-font">How Can We Help You?</h2>
@@ -137,11 +137,11 @@
    			<div class="col-md-3">
 				<div class="panel">
 				  <div class="panel-heading">
-				    <h3 class="panel-title better-font">Find a Doctor</h3>
+				    <h3 class="panel-title better-font">Find a Provider</h3>
 				  </div>
 				  <div class="panel-body">
 				    <p><small>Nationally recognized experts in pediatric medicine, across a full-range of services.</small></p>
-				  	<p><a class="btn btn-danger btn-cnhs btn-md btn-block" href="http://childrensnational.org/choose-childrens/find-a-provider" role="button" trackingLabel="Find a Doctor Btn">Find a Doctor</a></p>
+				  	<p><a class="btn btn-danger btn-cnhs btn-md btn-block" href="http://childrensnational.org/choose-childrens/find-a-provider" role="button" trackingLabel="Find a Provider Btn">Find a Provider</a></p>
 				  </div>
 				</div>
 			</div>	
@@ -178,7 +178,7 @@
 				  </div>
 				  <div class="panel-body">
 				    <p><small>As a nonprofit, Children's National relies on the generosity of families, community leaders, and corporations who share our vision for children. Your donation will support innovative therapies and research to give every child a chance for a healthy life.</small></p>
-				  	<p><a class="btn btn-danger btn-cnhs btn-md btn-block" href="http://giving.childrensnational.org/site/Donation2?df_id=6060&6060.donation=form1&s_src=14ODDonationsNB&s_subsrc=WEB_Hospitaljustright" role="button" trackingLabel="Donate Today Btn">Donate Today</a></p>
+				  	<p><a class="btn btn-danger btn-cnhs btn-md btn-block" href="http://giving.childrensnational.org/site/Donation2?df_id=7600&7600.donation=form1&s_src=OD7600&s_subsrc=RAPC_Hosp_ad" role="button" trackingLabel="Donate Today Btn">Donate Today</a></p>
 				  </div>
 				</div>
 			</div>	
