@@ -164,7 +164,7 @@
 							<option value="http://childrensnational.org/choose-childrens/locations-and-directions/outpatient-centers/frederick-regional-outpatient-center">Frederick, MD</option>
 							<option value="http://childrensnational.org/choose-childrens/locations-and-directions/outpatient-centers/upper-marlboro-outpatient-center">Upper Marlboro, MD</option>
 							<option value="http://childrensnational.org/choose-childrens/locations-and-directions/outpatient-centers/montgomery-county-outpatient-center">Montgomery County, MD</option>
-							<option value="http://childrensnational.org/choose-childrens/locations-and-directions">Northern Virginia</option>
+							<option value="http://childrensnational.org/choose-childrens/locations-and-directions/outpatient-centers/northern-virginia-outpatient-center">Northern Virginia</option>
 				  		</select>
 				  	</p>
 				  	<p><a class="btn btn-danger btn-cnhs btn-md btn-block" href="http://childrensnational.org/choose-childrens/locations-and-directions" role="button" trackingLabel="See All Locations Btn">See All Locations</a></p>
