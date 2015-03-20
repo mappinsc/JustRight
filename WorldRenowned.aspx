@@ -5,12 +5,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="Description" content="What's Right For Children? At the moment your child needs help, at the moment you place the most precious person in your life into the hands of another, that moment demands a remarkable and uncommon ability to care-the ability to do exactly what's right." />
-	<title>How Can We Help You? - Children's National Health System</title>
+	<title>World Renowned? - Children's National Health System</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="styles/css/campaign.css">
+	<link rel="stylesheet" href="styles/css/worldrenowned.css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="lib/js/jquery.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
@@ -194,6 +194,5 @@
 	   </div>
    </footer>
    <script src="//childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
-   <script src="lib/js/campaign.js"></script>
 </body>
 </html>
