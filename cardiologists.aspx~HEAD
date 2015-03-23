@@ -33,7 +33,6 @@
 <body>
   <header>
 	<nav class="navbar navbar-fixed-top navbar-default">
-	<div class="red-bar"></div>
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <a class="navbar-brand" href="#">
@@ -51,53 +50,18 @@
   </header>
   <section id="content-body">
   	<div class="container-fluid content-wrap">
-  		<!--World Renowed -->	
   		<div class="row row-1 content-row">
-  			 <div class="container">
-  				<div class="row1-caption">
-  					<h1>Our Cardiologists<br/> are World Renowed<br/> and Neighborhood Based.</h1>
-					<p style="float:right">With multiple locations in Northern Virginia, our<br/>top pediatric cardiologists are always close to you.</p>
-					<a class="btn btn-danger btn-cnhs btn-lg btn-block btn-cardio" href="#" role="button" trackinglabel="Meet Cardiologists">Meet Our Virginia Cardiologists</a>
-				</div>
-			</div>
+  				
   		</div>
-  		<!--World Renowed -->	
-  		<!--Expert Care -->
   		<div class="row row-2 content-row">
-  			<div class="container">
-  				<p class="new-color">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our availability--being there for your child--is what matters the most. And while we're strongle established in the D.C. area, we're also right in your neck of the woods: Northern Virginia.</p>
-  				<p class="new-color">Explore our locations and get acquainted with doctors that are just right for kids, and just right for you.</p>
-  			</div>
+  				
   		</div>
-  		<!--Expert Care -->
-  		<!--Meet Our Doctors -->
-  		<div class="row row-3 content-row">	
-				<div class="container">
-							<h1>Meet Your Doctors</h1>		
-				</div>
-		</div>
-        <!-- Meet Our Doctors -->
-        <!--Why Children's -->
-  		<div class="row row-4 content-row">	
-				<div class="container">
-					<p>&rsaquo; The combined years of training</p>
-					<p>&rsaquo; We perform the most pediatric surgeries</p>
-					<p>&rsaquo; Northern Virginia Magazine</p>
-					<p>&rsaquo; We're a leader in clinical research</p>
-					<p>&rsaquo; U.S. News &amp; World Report</p>
-							<h3>Why Children's?</h3>		
-				</div>
-		</div>
-        <!-- Why Children's -->
-        <!--Expert Care -->
-  		<div class="row contact-row content-row">
-  			<div class="container">
-  				<h1>Let's Talk</h1>
-  				<p class="text-center new-color text-museo">We're here to help. Call or schedule an appointment:</p>
-  			</div>
+  		<div class="row row-3 content-row">
+  				
   		</div>
-  		<!--Expert Care -->
-
+  		<div class="row row-4 content-row">
+  				
+  		</div>
   	</div>
   </section>
   <footer>

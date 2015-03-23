@@ -10,7 +10,7 @@ body{ color: #877369; background-color: #e8e8e8; background-image: url('../../fi
 
 .red-title{ color:#EE3123; }
 
-.phone-number-lg{ padding: 32px 0 0 0; margin-bottom: 0; font-size: 28px; font-weight: bold; }
+.phone-number-lg{ margin-bottom: 0; font-size: 28px; font-weight: bold; }
 
 .logo-mobile{ margin-top: 5px; }
 
@@ -127,4 +127,32 @@ body > .container { padding: 80px 15px 0; }
 .provider-listing{
 	font-family: Arial;
 	font-size: 12px;
+}
+
+
+/*CAMPAIGN SPECIFIC OVERRIDES GO BELOW*/
+
+.content-wrap{
+	margin-top: 90px;
+}
+
+.row-1{
+  	min-height: 1080px;
+  	background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-32.jpg');
+  	background-repeat: no-repeat;
+}
+
+.header-text-right{
+	display: block;
+  	font-size: .6em;
+  	text-transform: uppercase;
+  	color: #F00;
+}
+
+.phone-number-box {
+	text-align: justify;
+	font-size: 1.5em;
+	line-height: 1;
+	position: relative;
+	padding: 20px;
 }

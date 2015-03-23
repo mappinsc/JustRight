@@ -1,6 +1,8 @@
 body{ color: #877369; background-color: #e8e8e8; background-image: url('../../files/images/background-pattern.png'); }
 
 @font-face { font-family: CampaignFont; src: url('../fonts/cnat-font1.woff'); }
+@font-face { font-family: LightCampaignFont; src: url('../fonts/cnat-font4.woff'); }
+@font-face { font-family: SolidCampaignFont; src: url('../fonts/cnat-font2.woff'); }
 
 .better-font { font-family: CampaignFont,Helvetica,Arial,sans-serif; }
 
@@ -8,7 +10,7 @@ body{ color: #877369; background-color: #e8e8e8; background-image: url('../../fi
 
 .head-line-text { font-size: 34px; margin-bottom: 20px; margin-top: 0; }
 
-.red-title{ color:#EE3123; }
+.red-title{ color:#da291c; }
 
 .phone-number-lg{ margin-bottom: 0; font-size: 28px; font-weight: bold; }
 
@@ -24,13 +26,13 @@ body{ color: #877369; background-color: #e8e8e8; background-image: url('../../fi
 
 .header-appt-phone{ color: #877369; }
 
-.footer a span{ font-size: 26px; color: #EE3123; }
+.footer a span{ font-size: 26px; color: #da291c; }
 
 .image-wrapper{ padding: 6px; margin-bottom: 20px; /*background-color: #ffffff; border: 1px solid #cacaca;*/ }
 
 .row-2 .panel-heading{ padding: 20px 0 0 0; }
 
-.row-2 .panel-title{ font-size:1.5em; text-align: center; color:#EE3123; }
+.row-2 .panel-title{ font-size:1.5em; text-align: center; color:#da291c; }
 
 .row-2 .panel-title h3{ display: inline-block; }
 
@@ -47,14 +49,14 @@ body{ color: #877369; background-color: #e8e8e8; background-image: url('../../fi
 /* override section*/
 
 .btn-cnhs {
-	background: #ee3123; /* Old browsers */
-	background: -moz-linear-gradient(top,  #ee3123 0, #d32621 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#ee3123), color-stop(100%,#d32621)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #ee3123 0,#d32621 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #ee3123 0,#d32621 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #ee3123 0,#d32621 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #ee3123 0,#d32621 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee3123', endColorstr='#d32621',GradientType=0 ); /* IE6-9 */
+	background: #da291c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #da291c 0, #d32621 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#da291c), color-stop(100%,#d32621)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #da291c 0,#d32621 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #da291c 0,#d32621 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #da291c 0,#d32621 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #da291c 0,#d32621 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', endColorstr='#d32621',GradientType=0 ); /* IE6-9 */
 	background-repeat: repeat-x;
 	border-color: #B92C28;
 }
@@ -67,7 +69,7 @@ a:hover{ text-decoration: none; }
 
 .navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom{ box-shadow: #888 0px 0px 20px; }
 
-.row{ margin-top: 15px; margin-bottom: 40px; }
+.row{  }
 
 .panel{ box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.19); border: 1px solid #DBD6D4; }
 
@@ -132,21 +134,41 @@ body > .container { padding: 80px 15px 0; }
 
 /*CAMPAIGN SPECIFIC OVERRIDES GO BELOW*/
 
+.btn-cardio {
+		border-radius: 20px;
+		width:350px;
+		float:right;
+		clear:both;
+}
+
 .content-wrap{
 	margin-top: 90px;
 }
 
-.row-1{
-  	min-height: 1080px;
-  	background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-32.jpg');
-  	background-repeat: no-repeat;
+.row p { 
+  color: #fff;
+  font-family: Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  }
+
+.row { padding: 50px 0;}
+
+.row h3 {
+	float:right;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 56px;
+  	font-family: SolidCampaignFont,Helvetica,Arial,sans-serif;
+  	margin: 0 0;
 }
+
 
 .header-text-right{
 	display: block;
-  	font-size: .6em;
+  	font-size: 16px;
   	text-transform: uppercase;
-  	color: #F00;
+  	color: #da291c;
 }
 
 .phone-number-box {
@@ -156,3 +178,54 @@ body > .container { padding: 80px 15px 0; }
 	position: relative;
 	padding: 20px;
 }
+
+
+.row-1 {
+  	height: 955px;
+  	background-image: url('../../files/images/cardio-row1.jpg');
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.row h1 {
+  font-size: 48px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+}
+
+.row1-caption {
+	float:right;
+  z-index: 10;
+  color: #fff;
+  text-align: left;
+}
+
+p.new-color {
+	color: #777777;
+}
+
+.row-3 {
+	background-image: url('../../files/images/city.jpg');
+	background-color: rgba(6,32,51,.8);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 600px;
+}
+
+.row-4 {
+	background-color: #746661;
+}
+
+.contact-row h1 {
+	text-transform: none;
+	color: #da291c;
+	font-size: 46px;
+}
+
+.contact-row p { 
+	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+	font-size: 24px; }
