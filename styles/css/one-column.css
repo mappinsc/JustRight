@@ -186,6 +186,7 @@ body > .container { padding: 80px 15px 0; }
   	background-position: center center;
   	background-repeat: no-repeat;
   	background-size: cover;
+  	z-index: 999;
 }
 
 .row h1 {
@@ -228,4 +229,15 @@ p.new-color {
 
 .contact-row p { 
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-	font-size: 24px; }
+	font-size: 24px; 
+}
+
+.paw-box {
+  height: 220px;
+  background-color: #F00;
+  position: relative;
+  top: -80px;
+  border-radius: 0 80px;
+  z-index: -100;
+  padding: 60px 40px;
+}

@@ -65,8 +65,15 @@
   		<!--Expert Care -->
   		<div class="row row-2 content-row">
   			<div class="container">
-  				<p class="new-color">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our availability--being there for your child--is what matters the most. And while we're strongle established in the D.C. area, we're also right in your neck of the woods: Northern Virginia.</p>
-  				<p class="new-color">Explore our locations and get acquainted with doctors that are just right for kids, and just right for you.</p>
+	  			<div class="col-xs-8">
+	  				<p class="new-color">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our availability--being there for your child--is what matters the most. And while we're strongle established in the D.C. area, we're also right in your neck of the woods: Northern Virginia.</p>
+	  				<p class="new-color">Explore our locations and get acquainted with doctors that are just right for kids, and just right for you.</p>
+	  			</div>
+	  			<div class="col-xs-4">
+	  				<div class="paw-box">
+	  					<p class="paw-text">We're at the heart of the matter,<br>close to your child.</p>
+	  				</div>
+	  			</div>				
   			</div>
   		</div>
   		<!--Expert Care -->
