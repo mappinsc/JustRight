@@ -49,7 +49,7 @@
 	  </div>
 	</nav>
   </header>
-  <section id="content-body">
+  <section id="content-body" name="top">
   	<div class="container-fluid content-wrap">
   		<!--World Renowed -->	
   		<div class="row row-1 content-row">
@@ -72,9 +72,9 @@
   		<!--Expert Care -->
   		<!--Meet Our Doctors -->
   		<div class="row row-3 content-row">	
-				<div class="container">
-							<h1>Meet Your Doctors</h1>		
-				</div>
+			<div class="container">
+				<h1>Meet Your Doctors</h1>		
+			</div>
 		</div>
         <!-- Meet Our Doctors -->
         <!--Why Children's -->
@@ -85,7 +85,7 @@
 					<p>&rsaquo; Northern Virginia Magazine</p>
 					<p>&rsaquo; We're a leader in clinical research</p>
 					<p>&rsaquo; U.S. News &amp; World Report</p>
-							<h3>Why Children's?</h3>		
+					<h3>Why Children's?</h3>		
 				</div>
 		</div>
         <!-- Why Children's -->
@@ -93,11 +93,21 @@
   		<div class="row contact-row content-row">
   			<div class="container">
   				<h1>Let's Talk</h1>
-  				<p class="text-center new-color text-museo">We're here to help. Call or schedule an appointment:</p>
+  				<div class="text-center">
+	  				<p class="text-center new-color text-museo">We're here to help. Call or schedule an appointment:</p>
+	  				<a href="tel:7035311555" trackingLabel="Phone Number on Top"><span class="form-appt-phone better-font">(703) 531-1555</span></a>
+  					<p class="text-center new-color text-museo small">Or we can call you. Submit your info below.</p>
+  					<form action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+  						<input class="form-control input-sm" id="userName" type="text" name="entry.916599135" placeholder="NAME">
+  						<input class="form-control input-sm" id="userPhone" type="text" name="entry.354822211" placeholder="PHONE">
+  						<input class="form-control input-sm" id="userZipcode" type="text" name="entry.272965353" placeholder="ZIP CODE">
+  						<button type="submit" class="btn btn-danger better-font">Submit</button>
+  					</form>
+					<a href="#top">BACK TO TOP</a>
+  				</div>
   			</div>
   		</div>
   		<!--Expert Care -->
-
   	</div>
   </section>
   <footer>
@@ -108,6 +118,37 @@
 	   </div>
    </footer>
    <script src="//childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
+<script type="text/javascript">
+        function postContactToGoogle() {
+            var uName = $('#userName').val();
+            var uPhone = $('#userPhone').val();
+            var uZipcode = $('#userZipcode').val();
 
+                $.ajax({
+                    url: "https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse",
+                    data: { "entry_916599135": uName, 
+                    "entry_354822211": uPhone, "entry_272965353": 
+                    uZipcode},
+                    type: "POST",
+                    dataType: "xml",
+                    statusCode: {
+                        0: function () {
+                            //window.location.replace("http://childrensnational.org");
+                        },
+                        200: function () {
+                            //window.location.replace("http://childrensnational.org");
+                        }
+                    }
+                });
+        }
+
+$( "#ss-form" ).submit(function( event ) {
+  postContactToGoogle();
+  event.preventDefault();
+});
+
+
+
+</script>
 </body>
 </html>
