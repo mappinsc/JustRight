@@ -80,7 +80,15 @@
   		<!--Meet Our Doctors -->
   		<div class="row row-3 content-row">	
 			<div class="container">
-				<h1>Meet Your Doctors</h1>		
+				<h1>Meet Your Doctors</h1>
+				<div class="col-sm-6">
+					<div class="list-group">
+					  <a class="list-group-item active">
+					    <h4 class="list-group-item-heading">List group item heading</h4>
+					    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem fugit repellendus, facilis cupiditate sunt qui, iure vero possimus iusto aspernatur reiciendis eveniet aliquid facere ex alias illum eligendi debitis at.</p>
+					  </a>
+					</div>				
+				</div>
 			</div>
 		</div>
         <!-- Meet Our Doctors -->

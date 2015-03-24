@@ -237,7 +237,7 @@ p.new-color {
   background-color: #F00;
   position: relative;
   top: -80px;
-  border-radius: 0 80px;
+  border-radius: 0 70px;
   z-index: -100;
   padding: 60px 40px;
 }
