@@ -49,14 +49,14 @@
 	  </div>
 	</nav>
   </header>
-  <section id="content-body">
+  <section id="content-body" name="top">
   	<div class="container-fluid content-wrap">
   		<!--World Renowed -->	
   		<div class="row row-1 content-row">
-  			 <div class="container">
+			<div class="col-xs-offset-6 col-xs-5">
   				<div class="row1-caption">
   					<h1>Our Cardiologists<br/> are World Renowed<br/> and Neighborhood Based.</h1>
-					<p style="float:right">With multiple locations in Northern Virginia, our<br/>top pediatric cardiologists are always close to you.</p>
+					<p class="banner-subtitle pull-right"><span class="text-left">With multiple locations in Northern Virginia,<br>our top pediatric cardiologists are always close to you.</span></p>
 					<a class="btn btn-danger btn-cnhs btn-lg btn-block btn-cardio" href="#" role="button" trackinglabel="Meet Cardiologists">Meet Our Virginia Cardiologists</a>
 				</div>
 			</div>
@@ -65,16 +65,37 @@
   		<!--Expert Care -->
   		<div class="row row-2 content-row">
   			<div class="container">
-  				<p class="new-color">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our availability--being there for your child--is what matters the most. And while we're strongle established in the D.C. area, we're also right in your neck of the woods: Northern Virginia.</p>
-  				<p class="new-color">Explore our locations and get acquainted with doctors that are just right for kids, and just right for you.</p>
+	  			<div class="col-xs-8">
+	  				<p class="new-color box-left">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our availability--being there for your child--is what matters the most. And while we're strongle established in the D.C. area, we're also right in your neck of the woods: Northern Virginia.</p>
+	  				<p class="new-color">Explore our locations and get acquainted with doctors that are just right for kids, and just right for you.</p>
+	  			</div>
+	  			<div class="col-xs-4">
+	  				<div class="paw-box">
+	  					<p class="paw-text">We're at the heart of the matter,<br>close to your child.</p>
+	  				</div>
+	  			</div>				
   			</div>
   		</div>
   		<!--Expert Care -->
   		<!--Meet Our Doctors -->
-  		<div class="row row-3 content-row">	
-				<div class="container">
-							<h1>Meet Your Doctors</h1>		
+  		<div class="row row-3 content-row">
+			<div class="container">
+				<h1>Meet Your Doctors</h1>
+				<div class="col-sm-6">
+					<div class="media campaign-media">
+					  <div class="media-left media-middle">
+					    <a>
+					      <img class="media-object" width="80" src="http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135" alt="Charles Berul">
+					    </a>
+					  </div>
+					  <div class="media-body doc-text-box">
+					    <h4 class="media-heading">Middle aligned media</h4>
+					    <p class="doc-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sit suscipit numquam, libero adipisci, vitae aspernatur fuga eius odio, veniam porro repudiandae nam dolorem error excepturi dolor doloribus minima voluptates.</p>
+					  </div>
+					</div>
+					<div class="doc-box-footer"></div>		
 				</div>
+			</div>
 		</div>
         <!-- Meet Our Doctors -->
         <!--Why Children's -->
@@ -85,7 +106,7 @@
 					<p>&rsaquo; Northern Virginia Magazine</p>
 					<p>&rsaquo; We're a leader in clinical research</p>
 					<p>&rsaquo; U.S. News &amp; World Report</p>
-							<h3>Why Children's?</h3>		
+					<h3>Why Children's?</h3>		
 				</div>
 		</div>
         <!-- Why Children's -->
@@ -93,11 +114,21 @@
   		<div class="row contact-row content-row">
   			<div class="container">
   				<h1>Let's Talk</h1>
-  				<p class="text-center new-color text-museo">We're here to help. Call or schedule an appointment:</p>
+  				<div class="text-center">
+	  				<p class="text-center new-color text-museo">We're here to help. Call or schedule an appointment:</p>
+	  				<a href="tel:7035311555" trackingLabel="Phone Number on Top"><span class="form-appt-phone better-font">(703) 531-1555</span></a>
+  					<p class="text-center new-color text-museo small">Or we can call you. Submit your info below.</p>
+  					<form action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+  						<input class="form-control input-sm" id="userName" type="text" name="entry.916599135" placeholder="NAME">
+  						<input class="form-control input-sm" id="userPhone" type="text" name="entry.354822211" placeholder="PHONE">
+  						<input class="form-control input-sm" id="userZipcode" type="text" name="entry.272965353" placeholder="ZIP CODE">
+  						<button type="submit" class="btn btn-danger better-font">Submit</button>
+  					</form>
+					<a href="#top">BACK TO TOP</a>
+  				</div>
   			</div>
   		</div>
   		<!--Expert Care -->
-
   	</div>
   </section>
   <footer>
@@ -107,7 +138,8 @@
 	      </div>
 	   </div>
    </footer>
+   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
    <script src="//childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
-
+   <script src="lib/js/cardiologists.js"></script>
 </body>
 </html>
