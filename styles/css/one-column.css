@@ -1,4 +1,4 @@
-body{ color: #877369; background-color: #e8e8e8; background-image: url('../../files/images/background-pattern.png'); }
+body{ color: #877369; font-size: 16px; background-color: #e8e8e8; background-image: url('../../files/images/background-pattern.png'); }
 
 @font-face { font-family: CampaignFont; src: url('../fonts/cnat-font1.woff'); }
 @font-face { font-family: LightCampaignFont; src: url('../fonts/cnat-font4.woff'); }
@@ -142,15 +142,18 @@ body > .container { padding: 80px 15px 0; }
 }
 
 .content-wrap{
-	margin-top: 90px;
+	margin-top: 110px;
 }
 
 .row p { 
-  color: #fff;
   font-family: Arial,sans-serif;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: 300;
   }
+
+.row-1, .row-4, .paw-box{
+	color: #fff;
+}
 
 .row { padding: 50px 0;}
 
@@ -158,7 +161,7 @@ body > .container { padding: 80px 15px 0; }
 	float:right;
 	color: #ffffff;
 	text-transform: uppercase;
-	font-size: 56px;
+	font-size: 3.5em;
   	font-family: SolidCampaignFont,Helvetica,Arial,sans-serif;
   	margin: 0 0;
 }
@@ -166,7 +169,7 @@ body > .container { padding: 80px 15px 0; }
 
 .header-text-right{
 	display: block;
-  	font-size: 16px;
+  	font-size: 1em;
   	text-transform: uppercase;
   	color: #da291c;
 }
@@ -190,22 +193,28 @@ body > .container { padding: 80px 15px 0; }
 }
 
 .row h1 {
-  font-size: 48px;
+  font-size: 3em;
   font-weight: 300;
   text-transform: uppercase;
   color: #ffffff;
   font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+  overflow: hidden;
 }
 
 .row1-caption {
-	float:right;
-  z-index: 10;
-  color: #fff;
-  text-align: left;
+  margin-top: 180px;
+}
+
+.banner-subtitle{
+	margin-top: 90px;
 }
 
 p.new-color {
 	color: #777777;
+}
+
+.row-2 .box-left{
+	padding-top: 110px;
 }
 
 .row-3 {
@@ -224,12 +233,12 @@ p.new-color {
 .contact-row h1 {
 	text-transform: none;
 	color: #da291c;
-	font-size: 46px;
+	font-size: 2.875em;
 }
 
 .contact-row p { 
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-	font-size: 24px; 
+	font-size: 1.5em; 
 }
 
 .paw-box {
@@ -240,4 +249,18 @@ p.new-color {
   border-radius: 0 70px;
   z-index: -100;
   padding: 60px 40px;
+}
+
+.campaign-media{
+	background-color: white;
+	border: 2px solid red;
+}
+
+.doc-text-box h4{
+	padding-top: 10px;
+}
+
+p.doc-desc {
+  font-size: .675em;
+  line-height: 1;
 }
